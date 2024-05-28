@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Personal Portfolio Website</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+                <!-- Bootstrap core JS-->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+                <!-- Core theme JS-->
+                <script src="js/scripts.js"></script>
+                <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+                <link rel="stylesheet" href="style.css">
+                <script src="index.js" defer></script>
+                <link rel="stylesheet" href="fa/css/font-awesome.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" alt="logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times font-icon" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars font-icon" onclick="openmenu()"></i>
+                </nav>
+                <div class="header_text font-icon">
+                    <p>UI/UX/Web Designer</p>
+                    <h1>Hi, I'm <span>Geraldo</span><br>Ravondrainibe</h1>
+                    </div>
+                </div>
+            </div>
+
+<!----------about_section------------ -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about_col_1">
+                        <img src="images/user_cp1.png" alt="user">
+                    </div>
+                    <div class="about_col_2">
+                        <h1 class="sub_title">About Me</h1>
+                        <p>I am Geraldo a UI/UX designer. I accompany clients in their project from design
+                            to realization.From the visual identity, logo and graphic charter, to the design of 
+                            the web interface I am able to manage a project from A to Z.Grace to my experience 
+                            in many companies I know how to work under pressure while maintaining a good relationship.
+                            I am dynamic, smiling, I integrate quickly into the team and have easy contact.
+                        </p>
+
+                            <div class="tab_titles">
+                                <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab_links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab_links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab_contents active_tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                    <li><span>Web Development</span><br>Web app Development </li>
+                                    <li><span>App Development</span><br>Building Android/iOS apps</li>
+                                </ul>
+                            </div>
+                            <div class="tab_contents" id="experience">
+                                <ul>
+                                    <li><span>2030 - Current</span><br>UI/UX Design Training at Et Institute</li>
+                                    <li><span>2027 - 2030</span><br>Team lead at StarApp LLC.</li>
+                                    <li><span>2026 - 2027</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                                    <li><span>2025 - 2026</span><br>Internshipat ekart eCommerce.</li>
+                                </ul>
+                            </div>
+                            <div class="tab_contents" id="education">
+                                <ul>
+                                    <li><span>2030</span><br>UI/UX Design Training at Et Institute</li>
+                                    <li><span>2027</span><br>Master to EMIT</li>
+                                    <li><span>2025</span><br>License to HEI</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------services_section------------ -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub_title">My Services</h1>
+                <div class="services_list">
+                    <div> 
+                        <i class="fas fa-code font-icon"></i> 
+                        <h2>Web Design</h2>
+                        <p>Web design is the process of creating and designing the visual layout and user interface of websites. </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt font-icon"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>UI and UX design are both crucial components of designing digital products that are effective, engaging, and easy to use.</p>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store font-icon"></i>
+                        <h2>App Design</h2>
+                        <p>App design refers to the process of designing the user interface (UI) and user experience (UX) of a mobile application.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------Portfolio------------ -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub_title">My Portfolio</h1>
+                <div class="work_list">
+                    <div class="work">
+                        <img src="images/work1.1.jpg" alt="work1">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>You can Download it from play store</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work2.1.webp" alt="work2">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>You can Download it from play store</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work3.1.jpg" alt="work3">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>You can Download it from play store</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!----------contact------------ -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact_left">
+                        <h1 class="sub_title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane font-icon"></i>hei.ravo@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt font-icon"></i>+261 38 36 585 48</p>
+                        <div class="social_icons">
+                            <a href="https://web.facebook.com/ravo.ravondrainibe"><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter-square"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact_right">
+                        <form name="submit_to_google_sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" id="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg">Message sent successfully</span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright Geraldo. Made with <i class="fas fa-heart font-icon"></i> by Geraldo </p>
+            </div>
+        </div>
+    </body>
+</html>
